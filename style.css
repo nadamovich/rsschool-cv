@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+  }
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: rgba(39, 184, 224, 0.678);
+    margin: 0 auto;
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
+  }
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    text-decoration: none;
+  }
+.nav-link:hover {
+color: hotpink;
+  }
+.link {
+    text-decoration: none
+}
+.link:hover {
+    color: hotpink;
+      }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+     }
+
+.section {
+        width: 50%;
+      }
+
+.h1 {
+         display: flex;
+         font-size: 36px;
+         justify-content: center;
+         align-items: center;
+     }
+
+.avatar {
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Nanum Gothic', sans-serif;
+     }
+.img-round {
+    border-radius: 50%; 
+    border: 2px solid rgba(39, 184, 224, 0.678); 
+    box-shadow: 0 0 7px #666; 
+   }
+
+.link-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   }
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(39, 184, 224, 0.678);
+    font-weight: bold;
+    margin-top: 30px;
+}
+hr {
+    border: 2px solid rgba(39, 184, 224, 0.678);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.list {
+    list-style: none; 
+    margin-bottom: 8px;    
+}
+.ul {
+      padding: 0px 18px;
+}
+.footer-img-school {
+    height: 35px;
+    width: 90px;
+}
+.footer-img-gh {
+    height: 35px;
+    width: 45px;
+}
+.text-main {
+padding-left: 20px;
+}
+.code-container {
+    display: flex;
+    background-color: rgba(211, 211, 211, 0.52);
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+    margin-left: 8px;
+}
+@media (max-width: 768px) { 
+    .section {
+          width: 100%;
+        }
+      }
